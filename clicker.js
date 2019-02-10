@@ -26,7 +26,7 @@ var numClicks = 0
 // This part edits the click counter.
 $("#results").text("You clicked " + numClicks + " times");
 
-// To be honest, I have no idea why this is here. I just copy pasted some old code that I made,
+// To be honest, I have no idea why this is here. I just copy pasted some old code that I made a long time ago.
 $("#")
 
 // This is the function that makes jQuery do something when you click.
