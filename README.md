@@ -7,5 +7,7 @@ Here you'll find all the files that my website uses. It's unorganized currently,
 A whole bunch of thanks to:
 
 Khan Academy, for teaching me how to make my first website and still teaching me to this day.
+
 GitHub, for giving me the space and editor (Atom) to create my own site.
+
 Discord App, for allowing me to chat with my friends and get a first review of my site.
