@@ -39,6 +39,6 @@ $("img").on("click", function() {
 });
 
 // This part is all the CSS styles from the main page, without the style for the link.
-$("body").css("background-color", "rgb(66, 25, 106)")
+$("body").css("background-color", "rgb(50, 22, 96)")
 $("body").css("color", "white")
 $("body").css("font-family", "sans-serif")

@@ -1,3 +1,4 @@
+// This creates a line break function so I can re-use it when I need to.
 var lineSpace = function(){
   var space = $("<p>")
     .html("<br> <br>")
@@ -24,7 +25,7 @@ var mainHeaderInfo = $("<p>")
 // This creates a paragraph about Github.
 var aboutGithub = $("<p>")
   // .html("<i class="fab fa-github"></i> Want to look under the hood? Because this page is served by Github (jQueryLover.<strong>github.io</strong>), I naturally have a Github repository for this. Check it out! https://github.com/jQueryLover/jQueryLover.github.io")
-  .html("Want to look under the hood? Because this page is served by Github (jQueryLover.<strong>github.io</strong>), I naturally have a Github repository for this. Check it out! https://github.com/jQueryLover/jQueryLover.github.io")
+  .html("Want to look under the hood? Because this page is served by Github (jQueryLover.<strong>github.io</strong>), I naturally have a Github repository for this. Check it out! <a href = https://github.com/jQueryLover/jQueryLover.github.io> https://github.com/jQueryLover/jQueryLover.github.io </a>")
   .appendTo("body")
 
 // This creates a line break.
@@ -51,19 +52,23 @@ var aboutjQuery = $("<h2>")
 
 // This creates a paragraph after the second header.
 var aboutjQueryInfo = $("<p>")
-  .html("jQuery is a JavaScript library that makes JavaScript better. For more infomation, <a href = https://google.com> visit this handy dandy Wikipedia page. </a>")
+  .html("jQuery is a JavaScript library that makes JavaScript better. <em> Way </em> better. If you don't know what JavaScript is, I really don't want to explain it now. For more infomation, <a href = https://en.wikipedia.org/wiki/JQuery> visit this handy dandy Wikipedia page. </a>")
   .appendTo("body")
 
 // This creates a line break.
 lineSpace();
 
 // This creates a header with a part so I can explain a bit more about me.
-var aboutMeHeader = $("<h2>")
+var aboutMe = $("<h2>")
   .text("Wait, who are you?")
   .appendTo("body")
 
+var aboutMeInfo = $("<p>")
+  .text("Hey! You probably know me as jQueryLover on Github and I like that name.")
+  .appendTo("body")
+
 // This part contains all the CSS styles used.
-$("body").css("background-color", "rgb(66, 25, 106)")
+$("body").css("background-color", "rgb(50, 22, 96)")
 $("body").css("color", "white")
 $("body").css("font-family", "sans-serif")
 $("a").css("color", "rgb(255, 255, 255)")
