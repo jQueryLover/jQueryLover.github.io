@@ -37,8 +37,3 @@ $("img").on("click", function() {
   $("#results").text("You clicked " + numClicks + " times"); // This part edits the click counter. I have no idea why it's repeated, but
                                                              // I'm not taking any chances by deleting it.
 });
-
-// This part is all the CSS styles from the main page, without the style for the link.
-$("body").css("background-color", "rgb(50, 22, 96)")
-$("body").css("color", "white")
-$("body").css("font-family", "sans-serif")

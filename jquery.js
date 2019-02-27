@@ -66,9 +66,3 @@ var aboutMe = $("<h2>")
 var aboutMeInfo = $("<p>")
   .text("Hey! You probably know me as jQueryLover on Github and I like that name.")
   .appendTo("body")
-
-// This part contains all the CSS styles used.
-$("body").css("background-color", "rgb(50, 22, 96)")
-$("body").css("color", "white")
-$("body").css("font-family", "sans-serif")
-$("a").css("color", "rgb(255, 255, 255)")
