@@ -5,9 +5,19 @@ var lineSpace = function(){
     .appendTo("body")
 };
 
+var contactLink = $("<a>")
+  .attr("href", "wheretofindme.html")
+  .text("To contact page -")
+  .appendTo("body")
+
+var contactLink = $("<a>")
+  .attr("href", "clicker.html")
+  .html(" To clicker game <br>")
+  .appendTo("body")
+
 // This creates a jQuery logo and adds all the required attributes.
 var jQueryLogo = $("<img>")
-  .attr("src", "jquery-logo.png")
+  .attr("src", "jqueryLogo.png")
   .attr("width", "150")
   .attr("alt", "jQuery logo")
   .appendTo("body")
@@ -26,20 +36,6 @@ var mainHeaderInfo = $("<p>")
 var aboutGithub = $("<p>")
   // .html("<i class="fab fa-github"></i> Want to look under the hood? Because this page is served by Github (jQueryLover.<strong>github.io</strong>), I naturally have a Github repository for this. Check it out! https://github.com/jQueryLover/jQueryLover.github.io")
   .html("Want to look under the hood? Because this page is served by Github (jQueryLover.<strong>github.io</strong>), I naturally have a Github repository for this. Check it out! <a href = https://github.com/jQueryLover/jQueryLover.github.io> https://github.com/jQueryLover/jQueryLover.github.io </a>")
-  .appendTo("body")
-
-// This creates a line break.
-lineSpace();
-
-// This creates a paragraph with lots of useful links.
-var pageLinks = $("<p>")
-  .html("Here are some handy dandy page links: <br>")
-  .appendTo("body")
-
-// This is a link to my little clicker game. I don't have any plans to improve it.
-var clickerPageLink = $("<a>")
-  .text("Clicker game thing")
-  .attr("href", "clicker.html")
   .appendTo("body")
 
 // This creates a line break.

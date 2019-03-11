@@ -1,3 +1,13 @@
+var mainLink = $("<a>")
+  .attr("href", "index.html")
+  .text("Back to main page -")
+  .appendTo("body")
+
+var contactLink = $("<a>")
+  .attr("href", "wheretofindme.html")
+  .text(" To contact page")
+  .appendTo("body")
+
 // This creates the main header.
 var jQueryClickerHeader = $("<h1>")
   .text("jQuery Clicker Game")
@@ -5,7 +15,7 @@ var jQueryClickerHeader = $("<h1>")
 
 // This creates the jQuery logo and sets it up for the game.
 var jQueryClickerImage = $("<img>")
-  .attr("src", "jquery-logo.png")
+  .attr("src", "jqueryLogo.png")
   .attr("width", "300")
   .attr("alt", "jQuery logo")
   .css("cursor", "pointer")

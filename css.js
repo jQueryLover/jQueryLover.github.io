@@ -3,7 +3,10 @@ function addGoogleFont(FontName) {
     $("head").append("<link href='https://fonts.googleapis.com/css?family=" + FontName + "' rel='stylesheet' type='text/css'>");
 }
 
+// This adds the heading font.
 addGoogleFont("Special+Elite");
+
+// This adds the body font.
 addGoogleFont("Oswald");
 
 // This sets the background colour to a nice purple colour.
