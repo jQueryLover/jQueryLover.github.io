@@ -52,6 +52,12 @@ var discordServerInfo = $("<p>")
   .html("Here are a collection of server links that you may join. <br>")
   .appendTo("body")
 
-var comingSoon = $("<p>")
-  .text("Links here coming soon!"
+var computerClan = $("<a>")
+  .attr("href", "https://discordapp/invite/nTazaMT")
+  .html("My new Discord server called Computer Clan.")
+  .appendTo("body")
+
+var tPoseClub = $("<a>")
+  .attr("href", "https://discordapp/invite/bZE897Q")
+  .html("My friend's Discord server called T-Pose Club, mainly about the Fortnite emote T-Pose. <br>")
   .appendTo("body")
