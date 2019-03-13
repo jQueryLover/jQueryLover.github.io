@@ -9,8 +9,17 @@ addGoogleFont("Special+Elite");
 // This adds the body font.
 addGoogleFont("Oswald");
 
+/*
+var favicon = $("<link>")
+  .attr("href, favicon.ico")
+  .attr("rel", "icon")
+  .attr("type", "image/x-icon")
+  .appendTo("head")
+<link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />
+*/
+
 // This sets the background colour to a nice purple colour.
-$("body").css("background-color", "rgb(50, 22, 96)")
+$("body").css("background-color", "rgb(21, 124, 31)")
 
 // This sets the text colour to white.
 $("body").css("color", "white")
