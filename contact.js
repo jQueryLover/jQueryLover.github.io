@@ -54,7 +54,7 @@ var discordServerInfo = $("<p>")
 
 var computerClan = $("<a>")
   .attr("href", "https://discordapp/invite/nTazaMT")
-  .html("My new Discord server called Computer Clan.")
+  .html("My new Discord server called Computer Clan. <br>")
   .appendTo("body")
 
 var tPoseClub = $("<a>")
