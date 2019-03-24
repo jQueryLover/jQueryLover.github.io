@@ -5,4 +5,5 @@ Here you'll find all the files that my website uses. It's unorganized currently,
 
 ## Stuff I use
 Atom, which is owned by Github, which is also owned by Microsoft.
+
 Khan Academy, the ones that taught me how to program this thing.
