@@ -9,20 +9,24 @@ addGoogleFont("Special+Elite");
 // This adds the body font.
 addGoogleFont("Oswald");
 
-// This sets the background colour to a nice dark green colour.
-$("body").css("background-color", "rgb(21, 124, 31)")
-
-// This sets the text colour to white.
-$("body").css("color", "white")
+$("body")
+  .css("background-color", "rgb(21, 124, 31)")
+  .css("color", "white")
+  .css("font-size", "19px")
+  .css("text-align", "center")
+  .css("padding-top", "10px")
+  .css("padding-bottom", "10px")
+  .css("padding-left", "50px")
+  .css("padding-right", "50px")
 
 // This sets the heading font to the cool font named Special Elite.
-$("h1, h2, h3, h4, h5, h6").css("font-family", "'Special Elite', 'serif'")
+$("h1, h2, h3, h4, h5, h6")
+  .css("font-family", "'Special Elite', 'serif'")
 
-// This sets the paragraph font to the font named Oswald.
-$("p, a").css("font-family", "'Oswald', 'sans-serif'")
-
-// This makes the page font a bit bigger so we can fully appreciate these fonts.
-$("body").css("font-size", "19px")
+// This sets the paragraph font to the font names Oswald.
+$("p, a")
+  .css("font-family", "'Oswald', 'sans-serif'")
 
 // This changes the link colour to white to match the text colour.
-$("a").css("color", "rgb(255, 255, 255)")
+$("a")
+  .css("color", "rgb(255, 255, 255)")
