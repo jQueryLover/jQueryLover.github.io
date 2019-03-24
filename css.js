@@ -23,10 +23,7 @@ $("body")
 $("h1, h2, h3, h4, h5, h6")
   .css("font-family", "'Special Elite', 'serif'")
 
-// This sets the paragraph font to the font names Oswald.
-$("p, a")
+// This sets the paragraph font to the font named Oswald.
+$("p, .pageLink")
   .css("font-family", "'Oswald', 'sans-serif'")
-
-// This changes the link colour to white to match the text colour.
-$("a")
-  .css("color", "rgb(255, 255, 255)")
+  .css("color", "white")

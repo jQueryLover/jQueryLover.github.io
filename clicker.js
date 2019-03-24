@@ -1,12 +1,23 @@
-var mainLink = $("<a>")
-  .attr("href", "index.html")
-  .text("Back to main page -")
+// This creates a line break function so I can re-use it when I need to.
+var lineSpace = function(){
+  var space = $("<p>")
+    .html("<br> <br>")
+    .appendTo("body")
+};
+
+var mainLink = $("<button>")
+  .html("<a href = index.html> Go to the main page </a>")
   .appendTo("body")
 
-var contactLink = $("<a>")
-  .attr("href", "wheretofindme.html")
-  .text(" To contact page")
+var contactLink = $("<button>")
+  .html("<a href = wheretofindme.html> Contact me! </a>")
   .appendTo("body")
+
+var clickerLink  = $("<button>")
+  .html("<a href = clicker.html> Go to my clicker game thingy.</a>")
+  .appendTo("body")
+
+lineSpace();
 
 // This creates the main header.
 var jQueryClickerHeader = $("<h1>")

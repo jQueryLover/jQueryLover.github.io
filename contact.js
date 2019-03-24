@@ -1,19 +1,23 @@
-var mainLink = $("<a>")
-  .attr("href", "index.html")
-  .text("Back to main page -")
-  .appendTo("body")
-
-var clickerLink = $("<a>")
-  .attr("href", "clicker.html")
-  .text(" To clicker game")
-  .appendTo("body")
-
 // This creates a line break function so I can re-use it when I need to. Ironically this is reused from the first page.
 var lineSpace = function(){
   var space = $("<p>")
     .html("<br> <br>")
     .appendTo("body")
 };
+
+var mainLink = $("<button>")
+  .html("<a href = index.html> Go to the main page </a>")
+  .appendTo("body")
+
+var contactLink = $("<button>")
+  .html("<a href = wheretofindme.html> Contact me! </a>")
+  .appendTo("body")
+
+var clickerLink  = $("<button>")
+  .html("<a href = clicker.html> Go to my clicker game thingy.</a>")
+  .appendTo("body")
+
+lineSpace();
 
 var title = $("<h1>")
   .html("So you want to contact me?")
@@ -54,10 +58,12 @@ var discordServerInfo = $("<p>")
 
 var computerClan = $("<a>")
   .attr("href", "https://discordapp/invite/nTazaMT")
+  .addClass("pageLink")
   .html("My new Discord server called Computer Clan. <br>")
   .appendTo("body")
 
 var tPoseClub = $("<a>")
   .attr("href", "https://discordapp/invite/bZE897Q")
+  .addClass("pageLink")
   .html("My friend's Discord server called T-Pose Club, mainly about the Fortnite emote T-Pose. <br>")
   .appendTo("body")
