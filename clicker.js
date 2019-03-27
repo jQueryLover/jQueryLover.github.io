@@ -24,6 +24,11 @@ var jQueryClickerHeader = $("<h1>")
   .text("jQuery Clicker Game")
   .appendTo("body")
 
+// This is a little note about the code here.
+var codeWarning = $("<p>")
+  .text("Note: The code for this no longer working. I have no idea why. I think it's because I updated my jQuery version and it broke something. 😞")
+  .appendTo("body")
+
 // This creates the jQuery logo and sets it up for the game.
 var jQueryClickerImage = $("<img>")
   .attr("src", "jqueryLogo.png")
