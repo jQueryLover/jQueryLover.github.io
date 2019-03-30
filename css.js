@@ -10,7 +10,7 @@ addGoogleFont("Special+Elite");
 addGoogleFont("Oswald");
 
 $("body")
-  .css("background-color", "rgb(21, 124, 31)")
+  .css("background-color", "rgb(135, 88, 18)") // Alt - Ctrl - C is the keyboard shortcut for color picker
   .css("color", "white")
   .css("font-size", "19px")
   .css("text-align", "center")
@@ -27,3 +27,5 @@ $("h1, h2, h3, h4, h5, h6")
 $("p, .pageLink")
   .css("font-family", "'Oswald', 'sans-serif'")
   .css("color", "white")
+
+$(".defaultButton").css("cursor", "pointer")

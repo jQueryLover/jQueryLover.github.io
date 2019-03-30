@@ -1,4 +1,4 @@
-// This creates a line break function so I can re-use it when I need to.
+// This creates a line break function so I can re-use it when I need to. Ironically this is reused from the first page.
 var lineSpace = function(){
   var space = $("<p>")
     .html("<br> <br>")
@@ -17,6 +17,35 @@ var clickerLink  = $("<button>")
   .html("<a href = clicker.html> Go to my clicker game thingy.</a>")
   .appendTo("body")
 
+var defaultCss = $("<button>")
+  .text("Go back to the time where there were no styles...")
+  .addClass("defaultButton")
+  .appendTo("body")
+
+$(".defaultButton").on("click", function() {
+
+  $("body")
+    .css("display", "block")
+    .css("margin", "8px")
+    .css("background-color", "initial")
+    .css("color", "initial")
+    .css("text-align", "initial")
+    .css("font-size", "initial")
+    .css("padding-top", "initial")
+    .css("padding-bottom", "initial")
+    .css("padding-left", "initial")
+    .css("padding-right", "initial")
+
+  $("p, h1, h2, h3, h4, h5, h6")
+    .css("color", "initial")
+    .css("font-family", "initial")
+
+  $("a, .pageLink")
+    .css("color", "blue")
+    .css("font-family", "initial")
+
+});
+
 lineSpace();
 
 // This creates the main header.
@@ -31,7 +60,7 @@ var codeWarning = $("<p>")
 
 // This creates the jQuery logo and sets it up for the game.
 var jQueryClickerImage = $("<img>")
-  .attr("src", "jqueryLogo.png")
+  .attr("src", "jqueryLogo.webp")
   .attr("width", "300")
   .attr("alt", "jQuery logo")
   .css("cursor", "pointer")

@@ -17,11 +17,40 @@ var clickerLink  = $("<button>")
   .html("<a href = clicker.html> Go to my clicker game thingy.</a>")
   .appendTo("body")
 
+var defaultCss = $("<button>")
+  .text("Go back to the time where there were no styles...")
+  .addClass("defaultButton")
+  .appendTo("body")
+
+$(".defaultButton").on("click", function() {
+
+  $("body")
+    .css("display", "block")
+    .css("margin", "8px")
+    .css("background-color", "initial")
+    .css("color", "initial")
+    .css("text-align", "initial")
+    .css("font-size", "initial")
+    .css("padding-top", "initial")
+    .css("padding-bottom", "initial")
+    .css("padding-left", "initial")
+    .css("padding-right", "initial")
+
+  $("p, h1, h2, h3, h4, h5, h6")
+    .css("color", "initial")
+    .css("font-family", "initial")
+
+  $("a, .pageLink")
+    .css("color", "blue")
+    .css("font-family", "initial")
+
+});
+
 lineSpace();
 
 // This creates a jQuery logo and adds all the required attributes.
 var jQueryLogo = $("<img>")
-  .attr("src", "jqueryLogo.png")
+  .attr("src", "jqueryLogo.webp")
   .attr("width", "150")
   .attr("alt", "jQuery logo")
   .appendTo("body")

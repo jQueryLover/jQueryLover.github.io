@@ -17,22 +17,40 @@ var clickerLink  = $("<button>")
   .html("<a href = clicker.html> Go to my clicker game thingy.</a>")
   .appendTo("body")
 
-lineSpace();
-
-var title = $("<h1>")
-  .html("So you want to contact me?")
+var defaultCss = $("<button>")
+  .text("Go back to the time where there were no styles...")
+  .addClass("defaultButton")
   .appendTo("body")
 
-var titleInfo = $("<p>")
-  .text("If in the unlikely case that you want to talk to me about something, here are some ways to do so. Note that I'm not active all the time.")
-  .appendTo("body")
+$(".defaultButton").on("click", function() {
 
-// This creates a line space.
+  $("body")
+    .css("display", "block")
+    .css("margin", "8px")
+    .css("background-color", "initial")
+    .css("color", "initial")
+    .css("text-align", "initial")
+    .css("font-size", "initial")
+    .css("padding-top", "initial")
+    .css("padding-bottom", "initial")
+    .css("padding-left", "initial")
+    .css("padding-right", "initial")
+
+  $("p, h1, h2, h3, h4, h5, h6")
+    .css("color", "initial")
+    .css("font-family", "initial")
+
+  $("a, .pageLink")
+    .css("color", "blue")
+    .css("font-family", "initial")
+
+});
+
 lineSpace();
 
 // This creates a Discord logo and adds all the required attributes.
 var discordLogo = $("<img>")
-  .attr("src", "discordLogo.jpg")
+  .attr("src", "discordLogo.webp")
   .attr("width", "150")
   .attr("alt", "Discord logo")
   .appendTo("body")
