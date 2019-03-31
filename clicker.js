@@ -55,7 +55,7 @@ var jQueryClickerHeader = $("<h1>")
 
 // This is a little note about the code here.
 var codeWarning = $("<p>")
-  .text("Note: The code for this no longer working. I have no idea why. I think it's because I updated my jQuery version and it broke something. 😞")
+  .text("The clicker game is back in business! A jQuery update used to break the code, then I looked at the code again and spotted a mistake. Click away to your heart's content!")
   .appendTo("body")
 
 // This creates the jQuery logo and sets it up for the game.
@@ -76,13 +76,10 @@ var jQueryClickerResult = $("<p>")
   .appendTo("body")
 
 // This resets the number of clicks to 0.
-var numClicks = 0
+var numClicks = 0;
 
 // This part edits the click counter.
 $("#results").text("You clicked " + numClicks + " times");
-
-// To be honest, I have no idea why this is here. I just copy pasted some old code that I made a long time ago.
-$("#")
 
 // This is the function that makes jQuery do something when you click.
 $("img").on("click", function() {
