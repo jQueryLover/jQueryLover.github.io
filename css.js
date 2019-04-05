@@ -10,7 +10,7 @@ addGoogleFont("Special+Elite");
 addGoogleFont("Oswald");
 
 $("body")
-  .css("background-color", "rgb(135, 88, 18)") // Alt - Ctrl - C is the keyboard shortcut for color picker
+  .css("background-color", "rgb(145, 31, 31)") // Alt - Ctrl - C is the keyboard shortcut for color picker
   .css("color", "white")
   .css("font-size", "19px")
   .css("text-align", "center")
