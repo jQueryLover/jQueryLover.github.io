@@ -30,7 +30,7 @@ $(".defaultButton").on("click", function() {
     .css("background-color", "initial")
     .css("color", "initial")
     .css("text-align", "initial")
-    .css( font-size", "initial")
+    .css("font-size", "initial")
     .css("padding-top", "initial")
     .css("padding-bottom", "initial")
     .css("padding-left", "initial")
